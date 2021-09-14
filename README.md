@@ -4,12 +4,19 @@ As a sports analysts, find out the most successful teams, players and factors co
 
 ## Objectives
 •	To find the team that won the most number of matches in a season.
+
 •	To find the team that lost the most number of matches in a season.
+
 •	Does winning toss increases the chances of victory.
+
 •	To find the player with the most player of the match awards.
+
 •	To find the city that hosted the maximum number of IPL matches.
+
 •	To find the most winning team for each season.
+
 •	To find the on-field umpire with the maximum number of IPL matches.
+
 •	To find the biggest victories in IPL while defending a total and while chasing a total.
 
 ## Data Preparation and Cleaning
@@ -17,30 +24,54 @@ The dataset consist of data about IPL matches played from the year 2008 to 2019.
 
 The dataset has 18 columns. Let’s get acquainted with the columns.
 •	id: The IPL match id.
+
 •	season: The IPL season
+
 •	city: The city where the IPL match was held.
+
 •	date: The date on which the match was held.
+
 •	team1: One of the teams of the IPL match
+
 •	team2: The other team of the IPL match
+
 •	toss_winner: The team that won the toss
+
 •	toss_decision: The decision taken by the team that won the toss to ‘bat’ or ‘field’
+
 •	result: The result(‘normal’, ‘tie’, ‘no result’) of the match.
+
 •	dl_applied: (1 or 0)indicates whether the Duckworth-Lewis rule was applied or not.
+
 •	winner: The winner of the match.
+
 •	win_by_runs: Provides the runs by which the team batting first won
+
 •	win_by_runs: Provides the number of wickets by which the team batting second won.
+
 •	player_of_match: The outstanding player of the match.
+
 •	venue: The venue where the match was hosted.
+
 •	umpire1: One of the two on-field umpires who officiate the match.
+
 •	umpire2: One of the two on-field umpires who officiate the match.
+
 •	umpire3: The off-field umpire who officiates the match
 
+
 The following inferences can be made from the describe() method:
+
 •	The .csv file has data of IPL matches starting from the season 2008 to 2019.
+
 •	The biggest margin of victory for the team batting first(win_by_runs) is 146 runs.
+
 •	The biggest victory of the team batting second(win_by_wickets) is by 10 wickets.
+
 •	75% of the victorious teams that bat first won by a margin of 19 runs.
+
 •	75% of the victorious teams that bat second won by a margin of 6 wickets.
+
 •	There were 756 IPL matches hosted from 2008 to 2019.
 
 
@@ -52,16 +83,49 @@ Now that our data set has been cleaned up, it’s time to do the in-depth analys
 
 ### The team with the most number of wins per season.
 Each IPL season has a fair share of excitement and adulation. No team other than Chennai Super Kings(in 2010 and 2011) was able to win the IPL trophy in succession. That is a testimony to the unpredictability of IPL.
+
 ![image](https://user-images.githubusercontent.com/70087327/133277601-52530852-147c-4650-a940-b8c9e48a2dd2.png)
+
 •	Mumbai Indians has secured the most wins in four seasons(2010, 2013, 2017, and 2019).
 
 
+
 ![image](https://user-images.githubusercontent.com/70087327/133278018-98865393-7c60-4ccd-ae3d-83123657731f.png)
+
 •	Eden Gardens has hosted the maximum number of IPL matches followed by Wankhede Stadium and M Chinnaswamy Stadium.
 
 ![image](https://user-images.githubusercontent.com/70087327/133278879-48f496f2-9d56-4655-bdec-a808f2494533.png)
+
 •	Cris Gayle is the player who won the most player of the match awards and hence is the most valuable player.
+
 •	Six Indian players have figured in the top ten IPL players list.
 
 
+
+## Conclusion
+
+•	Mumbai Indians is the most successful team in IPL.
+
+•	Mumbai Indians has won the most number of toss.
+
+•	There were more matches won by chasing the total(419 matches) than defending(350 matches).
+
+•	When defending a total, the biggest victory was by 146 runs(Mumbai Indians defeated Delhi Daredevils by 146 runs on 06 May 2017 at Feroz Shah Kotla stadium, Delhi).
+
+•	When chasing a target, the biggest victory was by 10 wickets(without losing any wickets) and there were 11 such instances.
+
+•	The Mumbai city has hosted the most number of IPL matches.
+
+•	Chris Gayle has won the maximum number of player of the match title.
+
+•	Winning toss gives a slight edge(52% probability of winning) against the opponents.
+
+
+•	Five Indian players have figured in the top ten IPL players list.
+
+•	S. Ravi(Sundaram Ravi) has officiated the most number of IPL matches on-field.
+
+•	Eden Gardens has hosted the maximum number of IPL matches.
+
+•	Till 2019, 40 venues have hosted 756 IPL matches.
 
