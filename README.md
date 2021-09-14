@@ -19,6 +19,7 @@ As a sports analysts, find out the most successful teams, players and factors co
 
 •	To find the biggest victories in IPL while defending a total and while chasing a total.
 
+
 ## Data Preparation and Cleaning
 The dataset consist of data about IPL matches played from the year 2008 to 2019. IPL is a professional Twenty20 cricket league founded by the Board of Control for Cricket in India (BCCI) in 2008. The league has 8 teams representing 8 different Indian cities or states. It enjoys tremendous popularity and the brand value of the IPL in 2019 was estimated to be ₹475 billion (US$6.7 billion). So let’s analyze IPL through stats. There are 756 rows and 18 columns. 756 rows imply that there were 756 IPL matches held between 2008 and 2019.
 
@@ -60,6 +61,7 @@ The dataset has 18 columns. Let’s get acquainted with the columns.
 •	umpire3: The off-field umpire who officiates the match
 
 
+
 The following inferences can be made from the describe() method:
 
 •	The .csv file has data of IPL matches starting from the season 2008 to 2019.
@@ -78,31 +80,10 @@ The following inferences can be made from the describe() method:
 It’s imperative to know the count of NaN values for each column before we proceed further.
 The column ‘umpire3’ has a significant number of NaN values. As the off-field umpire parameter is insignificant, we can drop this column. The other columns that have Nan values are of type object(Pandas equivalent of Python String data type) and are very few in number(<=7).
 
-## Exploratory Analysis and Visualization
-Now that our data set has been cleaned up, it’s time to do the in-depth analysis and visualization.
-
-### The team with the most number of wins per season.
-Each IPL season has a fair share of excitement and adulation. No team other than Chennai Super Kings(in 2010 and 2011) was able to win the IPL trophy in succession. That is a testimony to the unpredictability of IPL.
-
-![image](https://user-images.githubusercontent.com/70087327/133277601-52530852-147c-4650-a940-b8c9e48a2dd2.png)
-
-•	Mumbai Indians has secured the most wins in four seasons(2010, 2013, 2017, and 2019).
 
 
 
-![image](https://user-images.githubusercontent.com/70087327/133278018-98865393-7c60-4ccd-ae3d-83123657731f.png)
-
-•	Eden Gardens has hosted the maximum number of IPL matches followed by Wankhede Stadium and M Chinnaswamy Stadium.
-
-![image](https://user-images.githubusercontent.com/70087327/133278879-48f496f2-9d56-4655-bdec-a808f2494533.png)
-
-•	Cris Gayle is the player who won the most player of the match awards and hence is the most valuable player.
-
-•	Six Indian players have figured in the top ten IPL players list.
-
-
-
-## Conclusion
+## Conclusions
 
 •	Mumbai Indians is the most successful team in IPL.
 
