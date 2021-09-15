@@ -22,45 +22,7 @@ As a sports analysts, find out the most successful teams, players and factors co
 
 ## Data Preparation and Cleaning
 The dataset consist of data about IPL matches played from the year 2008 to 2019. IPL is a professional Twenty20 cricket league founded by the Board of Control for Cricket in India (BCCI) in 2008. The league has 8 teams representing 8 different Indian cities or states. It enjoys tremendous popularity and the brand value of the IPL in 2019 was estimated to be ₹475 billion (US$6.7 billion). So let’s analyze IPL through stats. There are 756 rows and 18 columns. 756 rows imply that there were 756 IPL matches held between 2008 and 2019.
-
-The dataset has 18 columns. Let’s get acquainted with the columns.
-•	id: The IPL match id.
-
-•	season: The IPL season
-
-•	city: The city where the IPL match was held.
-
-•	date: The date on which the match was held.
-
-•	team1: One of the teams of the IPL match
-
-•	team2: The other team of the IPL match
-
-•	toss_winner: The team that won the toss
-
-•	toss_decision: The decision taken by the team that won the toss to ‘bat’ or ‘field’
-
-•	result: The result(‘normal’, ‘tie’, ‘no result’) of the match.
-
-•	dl_applied: (1 or 0)indicates whether the Duckworth-Lewis rule was applied or not.
-
-•	winner: The winner of the match.
-
-•	win_by_runs: Provides the runs by which the team batting first won
-
-•	win_by_runs: Provides the number of wickets by which the team batting second won.
-
-•	player_of_match: The outstanding player of the match.
-
-•	venue: The venue where the match was hosted.
-
-•	umpire1: One of the two on-field umpires who officiate the match.
-
-•	umpire2: One of the two on-field umpires who officiate the match.
-
-•	umpire3: The off-field umpire who officiates the match
-
-
+The dataset has 18 columns.
 
 The following inferences can be made from the describe() method:
 
