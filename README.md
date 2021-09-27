@@ -3,9 +3,9 @@ This is one of the  internship tasks given by The Sparks Foundation i.e GRIP(Gra
 As a sports analysts, find out the most successful teams, players and factors contributing win or loss of a team. Suggest teams or players a company should endorse for its products. StoryBoards - explaining the charts and interpretations. Use annotations, animation and images.
 
 ## Objectives
-•	To find the team that won the most number of matches in a season.
+•	To find the team that 'won' the most number of matches in a season.
 
-•	To find the team that lost the most number of matches in a season.
+•	To find the team that 'lost' the most number of matches in a season.
 
 •	Does winning toss increases the chances of victory.
 
